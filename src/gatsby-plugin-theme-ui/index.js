@@ -2,7 +2,7 @@ export default {
   colors: {
     text: "#000",
     background: "#fff",
-    primary: "teal",
+    primary: "#009577",
   },
   fonts: {
     body: "system-ui, sans-serif",
