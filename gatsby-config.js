@@ -30,5 +30,16 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
+    // By Elio at 2020-02-06
+    "gatsby-plugin-theme-ui",
+    // "gatsby-theme-style-guide",
+    {
+      resolve: "gatsby-theme-style-guide",
+      options: {
+        // sets path for generated page, instead of /style-guide
+        basePath: "/design-system",
+      },
+    },
   ],
 }

@@ -1,4 +1,5 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -8,8 +9,8 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div>
-      <h1>Miss you always</h1>
+    <div sx={{ bg: "background" }}>
+      <h1 sx={{ color: "primary" }}>Miss you always</h1>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
