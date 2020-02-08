@@ -23,7 +23,7 @@ const Code = props => {
         sx={{
           border: theme => `1px solid ${theme.colors.muted}`,
           p: 4,
-          "div :first-child": {
+          "div :first-of-type": {
             mt: 0,
           },
           variant: "react-live",

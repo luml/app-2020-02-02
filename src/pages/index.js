@@ -12,9 +12,9 @@ const IndexPage = () => (
     <div sx={{ bg: "background" }}>
       <h1 sx={{ color: "primary" }}>Miss you always</h1>
       <Link to="/demo/" activeClassName="current-page">
-        Demo&rarr;
+        Try this Demo&rarr;
       </Link>
-      <div style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}>
+      <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
     </div>

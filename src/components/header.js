@@ -4,7 +4,13 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 const Header = ({ siteTitle }) => (
-  <header sx={{ bg: "primary", display: `flex`, mb: `1.45rem` }}>
+  <header
+    sx={{
+      bg: "primary",
+      display: `flex`,
+      mb: `1.45rem`,
+    }}
+  >
     <div
       sx={{
         maxWidth: 960,

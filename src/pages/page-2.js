@@ -10,8 +10,14 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
     <h1 sx={{ color: "primary" }}>Feel you on Sundays</h1>
-    <div style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}>
+    <div
+      style={{
+        maxWidth: `100px`,
+        marginBottom: `1.45rem`,
+      }}
+    >
       <Image />
+      123
     </div>
     <Link to="/">⇠Go back</Link>
   </Layout>
