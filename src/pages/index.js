@@ -11,6 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div sx={{ bg: "background" }}>
       <h1 sx={{ color: "primary" }}>Miss you always</h1>
+      <Link to="/demo/">Demo&rarr;</Link>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>

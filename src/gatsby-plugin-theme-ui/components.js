@@ -1,12 +1,5 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+import Code from "../components/code"
 
 export default {
-  h1: props => (
-    <h1 {...props}>
-      <a href={`#${props.id}`}>{props.children}</a>
-    </h1>
-  ),
+  pre: Code,
 }
-
-// TODO What does this component work for?
