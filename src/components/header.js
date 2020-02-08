@@ -7,7 +7,6 @@ const Header = ({ siteTitle }) => (
   <header sx={{ bg: "primary", display: `flex`, mb: `1.45rem` }}>
     <div
       sx={{
-        m: `0 auto`,
         maxWidth: 960,
         p: `1.45rem 1.0875rem`,
       }}
