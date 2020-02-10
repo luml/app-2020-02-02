@@ -2,11 +2,11 @@ export default {
   colors: {
     text: "#000",
     background: "#fff",
-    primary: "black",
-    muted: "teal",
+    primary: "#FF67C7",
+    muted: "#FF67C7",
   },
   fonts: {
-    body: "system-ui, sans-serif",
+    body: "system-ui, Georgia",
     heading: '"Avenir Next", sans-serif',
   },
 }

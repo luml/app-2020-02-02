@@ -11,11 +11,17 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div sx={{ bg: "background" }}>
       <h1 sx={{ color: "primary" }}>Miss you always</h1>
-      <Link to="/demo/" activeClassName="current-page">
-        Try this Demo&rarr;
-      </Link>
       <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
         <Image />
+      </div>
+      <div style={{ display: `flex` }}>
+        <p>
+          Hey there, we don't really do much at here. So just bear with me if
+          you can.
+        </p>
+        <Link to="/demo/" activeClassName="current-page">
+          Try this Demo&rarr;
+        </Link>
       </div>
     </div>
     <Link to="/page-2/">Gonna⇢</Link>
