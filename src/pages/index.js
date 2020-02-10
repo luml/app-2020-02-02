@@ -15,7 +15,7 @@ const IndexPage = () => (
         <Image />
       </div>
       <div style={{ display: `flex` }}>
-        <p sx={{ fontFamily: "body" }}>
+        <p sx={{ fontFamily: "body", marginRight: "1rem" }}>
           Hey there, we don't really do much at here. So just bear with me if
           you can.
         </p>
