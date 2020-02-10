@@ -6,7 +6,7 @@ export default {
     muted: "#FF67C7",
   },
   fonts: {
-    body: "system-ui, Georgia",
-    heading: '"Avenir Next", sans-serif',
+    body: '"Gill Sans", sans-serif',
+    heading: "Georgia, serif",
   },
 }
