@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Welcome" />
     <div sx={{ bg: "background" }}>
-      <h1 sx={{ color: "primary", fontFamily: "heading" }}>Miss you always</h1>
+      <h1 sx={{ fontFamily: "heading" }}>Miss you always</h1>
       <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
         {/* <Image /> */}
       </div>
