@@ -23,6 +23,9 @@ const IndexPage = () => (
           Try this Demo&rarr;
         </Link>
       </div>
+      <video width="400" height="300" src="" controls>
+        A video filled with one second
+      </video>
     </div>
     <Link to="/page-2/">Gonna⇢</Link>
   </Layout>
