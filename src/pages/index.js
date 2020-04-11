@@ -23,8 +23,10 @@ const IndexPage = () => (
           Try this Demo&rarr;
         </Link>
       </div>
+      {/* move video into pages folder */}
       <video width="400" height="300" src="/video/0410.mp4" controls>
-        A video filled with one second
+        <track default kind="captions" srclang="en"></track>A video filled with
+        one second
       </video>
     </div>
     <Link to="/page-2/">Gonna⇢</Link>
