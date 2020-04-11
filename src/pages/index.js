@@ -23,9 +23,9 @@ const IndexPage = () => (
           Try this Demo&rarr;
         </Link>
       </div>
-      {/* move video into pages folder */}
+      {/* move video into pages folder, can it has subtitles*/}
       <video width="400" height="300" src="/video/0410.mp4" controls>
-        <track default kind="captions" srclang="en"></track>A video filled with
+        <track default kind="subtitles" srclang="en"></track>A video filled with
         one second
       </video>
     </div>
