@@ -23,7 +23,7 @@ const IndexPage = () => (
           Try this Demo&rarr;
         </Link>
       </div>
-      <video width="400" height="300" src="" controls>
+      <video width="400" height="300" src="/video/0410.mp4" controls>
         A video filled with one second
       </video>
     </div>
