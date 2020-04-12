@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1 sx={{ color: "primary", fontFamily: "heading" }}>
+    <h1 sx={{ fontFamily: "heading" }}>
       Feel you on Sundays
     </h1>
     <div>
