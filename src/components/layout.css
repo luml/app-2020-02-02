@@ -517,6 +517,9 @@ ol li {
 ul li {
   padding-left: 0;
 }
+ul li::marker {
+  color: deepPink;
+}
 li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
