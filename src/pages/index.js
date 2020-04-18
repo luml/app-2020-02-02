@@ -23,6 +23,7 @@ const IndexPage = () => (
           Try this Demo&rarr;
         </Link>
       </div>
+      <div className="linearGradient" onClick={displayLinearGradient}></div>
       {/* move video into pages folder, can it has subtitles or captions*/}
       <video width="400" height="300" src="/video/0410.mp4" controls>
         {/* <track default kind="subtitles" srclang="en"></track> */}
@@ -33,5 +34,11 @@ const IndexPage = () => (
     <Link to="/page-2/">Gonna⇢</Link>
   </Layout>
 )
+
+function displayLinearGradient() {
+  document.querySelector(
+    ".linearGradient"
+  ).innerHTML = `This is made of linear-gradient`
+}
 
 export default IndexPage
