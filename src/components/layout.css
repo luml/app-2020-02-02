@@ -637,4 +637,14 @@ pre tt:after {
     blue 80%
   );
   cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.linearGradient:hover {
+  color: white;
+  height: 50em;
+  background: linear-gradient(0.25turn, rebeccapurple, purple);
+}
+/* content property doesn't work */
+.linearGradient>p::after {
+  content: 🥶;
 }

@@ -25,20 +25,17 @@ const IndexPage = () => (
       </div>
       <div className="linearGradient" onClick={displayLinearGradient}></div>
       {/* move video into pages folder, can it has subtitles or captions*/}
-      <video width="400" height="300" src="/video/0410.mp4" controls>
-        {/* <track default kind="subtitles" srclang="en"></track> */}
-        <track default kind="captions" srcLang="en"></track>A video filled with
-        one second
-      </video>
     </div>
     <Link to="/page-2/">Gonna⇢</Link>
   </Layout>
 )
 
 function displayLinearGradient() {
-  document.querySelector(
-    ".linearGradient"
-  ).innerHTML = `This is made of linear-gradient`
+  let linearGradientDiv = document.querySelector(".linearGradient")
+  linearGradientDiv.innerHTML = ''
+  const p = document.createElement('p')
+  p.innerText =  `This is made of linear-gradient`
+  document.querySelector(".linearGradient").appendChild(p)
 }
 
 export default IndexPage
