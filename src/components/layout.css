@@ -644,7 +644,10 @@ pre tt:after {
   height: 50em;
   background: linear-gradient(0.25turn, rebeccapurple, purple);
 }
-/* content property doesn't work */
-.linearGradient>p::after {
-  content: 🥶;
+/* content property doesn't work, cus content property has to have a string type value */
+.linearGradient > p::after {
+  content: "🥶";
+}
+.hey::before {
+  content: "🖐";
 }

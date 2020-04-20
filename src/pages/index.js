@@ -15,7 +15,7 @@ const IndexPage = () => (
         {/* <Image /> */}
       </div>
       <div style={{ display: `flex` }}>
-        <p sx={{ fontFamily: "body", marginRight: "1rem" }}>
+        <p className="hey" sx={{ fontFamily: "body", marginRight: "1rem" }}>
           Hey there, we don't really do much at here. So just bear with me if
           you can.
         </p>
@@ -32,9 +32,9 @@ const IndexPage = () => (
 
 function displayLinearGradient() {
   let linearGradientDiv = document.querySelector(".linearGradient")
-  linearGradientDiv.innerHTML = ''
-  const p = document.createElement('p')
-  p.innerText =  `This is made of linear-gradient`
+  linearGradientDiv.innerHTML = ""
+  const p = document.createElement("p")
+  p.innerText = `This is made of linear-gradient`
   document.querySelector(".linearGradient").appendChild(p)
 }
 
