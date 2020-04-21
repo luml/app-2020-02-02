@@ -1,0 +1,27 @@
+.linearGradient {
+  display: grid;
+  place-content: center;
+  height: 10em;
+  background: linear-gradient(
+    to right,
+    red 20%,
+    orange 2% 40%,
+    yellow 40% 60%,
+    green 60% 80%,
+    blue 80%
+  );
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.linearGradient:hover {
+  color: white;
+  height: 50em;
+  background: linear-gradient(0.25turn, rebeccapurple, purple);
+}
+/* content property doesn't work, cus content property has to have a string type value */
+.linearGradient > p::after {
+  content: "🥶";
+}
+.hey::before {
+  content: "🖐";
+}
