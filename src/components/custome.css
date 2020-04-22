@@ -25,3 +25,8 @@
 .hey::before {
   content: "🖐";
 }
+
+/* This selector covers all nested <li>s */
+ul li {
+  list-style: armenian;
+}
