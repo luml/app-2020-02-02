@@ -32,11 +32,11 @@ const IndexPage = () => (
 )
 
 function displayLinearGradient() {
-  let linearGradientDiv = document.querySelector(".linearGradient")
-  linearGradientDiv.innerHTML = ""
+  let linearGradient = document.querySelector(".linearGradient")
+  linearGradient.textContent = null
   const p = document.createElement("p")
   p.innerText = `This is made of linear-gradient`
-  document.querySelector(".linearGradient").appendChild(p)
+  linearGradient.appendChild(p)
 }
 
 export default IndexPage
