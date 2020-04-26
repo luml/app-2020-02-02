@@ -35,6 +35,11 @@ function displayLinearGradient() {
   let linearGradient = document.querySelector(".linearGradient")
   linearGradient.textContent = null
   const p = document.createElement("p")
+  // There're two ways to make text node
+  /**
+   * 1, document.createTextNode(`This is made of linear-gradient`)
+   * 2, p.innerText
+   */
   p.innerText = `This is made of linear-gradient`
   linearGradient.appendChild(p)
 }
