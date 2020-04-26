@@ -32,6 +32,16 @@ const IndexPage = () => (
 )
 
 function displayLinearGradient() {
+  // how many times you have visited click this div using localStorage
+  let times = localStorage.getItem("clicked-div")
+  if (times == null) {
+    times = 0
+  } else {
+    times = parseInt(times)
+  }
+  times++
+  localStorage.setItem("clicked-div", times.toString(10))
+
   let linearGradient = document.querySelector(".linearGradient")
   linearGradient.textContent = null
   const p = document.createElement("p")
@@ -40,7 +50,7 @@ function displayLinearGradient() {
    * 1, document.createTextNode(`This is made of linear-gradient`)
    * 2, p.innerText
    */
-  p.innerText = `This is made of linear-gradient`
+  p.innerText = `This is made of linear-gradient which has been clicked ${times} time(s)`
   linearGradient.appendChild(p)
 }
 
