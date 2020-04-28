@@ -2,12 +2,14 @@
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
+import DarkModeToggle from "./toggleMode"
 
 const Header = ({ siteTitle }) => (
   <header
     sx={{
       bg: "primary",
       display: `flex`,
+      justifyContent: `space-between`,
       mb: `1.45rem`,
     }}
   >
@@ -29,6 +31,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <DarkModeToggle />
   </header>
 )
 

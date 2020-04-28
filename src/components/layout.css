@@ -623,3 +623,14 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+body.light-mode {
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+body.dark-mode {
+  background-color: black;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
