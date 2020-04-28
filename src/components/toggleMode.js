@@ -6,32 +6,13 @@ const DarkModeToggle = () => {
   const darkMode = useDarkMode(false)
 
   return (
-    <div
-      sx={{
-        display: `flex`,
-        justifyContent: `space-between`,
-      }}
-    >
-      <button
-        sx={{
-          bg: "primary",
-          borderStyle: `none`,
-        }}
-        type="button"
-        onClick={darkMode.disable}
-      >
+    <div className="toggle-div">
+      <button type="button" onClick={darkMode.disable}>
         <span role="img" aria-label="lightMode">
           ☀︎
         </span>
       </button>
-      <button
-        sx={{
-          bg: "primary",
-          borderStyle: `none`,
-        }}
-        type="button"
-        onClick={darkMode.enable}
-      >
+      <button type="button" onClick={darkMode.enable}>
         <span role="img" aria-label="darkMode">
           ☽
         </span>

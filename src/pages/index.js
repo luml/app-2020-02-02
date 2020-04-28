@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Welcome" />
-    <div sx={{ bg: "background" }}>
+    <div className="heartWords"  sx={{ bg: "background" }}>
       <h1 sx={{ fontFamily: "heading" }}>Miss you always</h1>
       <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
         {/* <Image /> */}

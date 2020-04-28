@@ -634,3 +634,19 @@ body.dark-mode {
   color: white;
   transition: all 0.5s ease-in-out;
 }
+
+body.dark-mode .heartWords {
+  color: black;
+  background: darkkhaki;
+}
+
+.toggle-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-div>button {
+  background: beige;
+  border-style: none;
+  width: 2em
+}
