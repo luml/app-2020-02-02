@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Welcome" />
-    <div className="heartWords"  sx={{ bg: "background" }}>
+    <div className="heartWords" sx={{ bg: "background" }}>
       <h1 sx={{ fontFamily: "heading" }}>Miss you always</h1>
       <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
         {/* <Image /> */}
@@ -24,7 +24,11 @@ const IndexPage = () => (
           Try this Demo&rarr;
         </Link>
       </div>
-      <div className="linearGradient" onClick={displayLinearGradient}></div>
+      <div
+        className="linearGradient"
+        onClick={displayLinearGradient}
+        onKeyDown={displayLinearGradient}
+      ></div>
       {/* move video into pages folder, can it has subtitles or captions*/}
     </div>
     <Link to="/page-2/">Gonna⇢</Link>

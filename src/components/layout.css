@@ -635,8 +635,15 @@ body.dark-mode {
   transition: all 0.5s ease-in-out;
 }
 
+body.dark-mode header {
+  background: darkkhaki;
+}
+
 body.dark-mode .heartWords {
-  color: black;
+  color: white;
+  background: black;
+}
+body.dark-mode .toggle-div > button {
   background: darkkhaki;
 }
 
@@ -645,8 +652,8 @@ body.dark-mode .heartWords {
   justify-content: space-between;
 }
 
-.toggle-div>button {
+.toggle-div > button {
   background: beige;
   border-style: none;
-  width: 2em
+  width: 4em;
 }
