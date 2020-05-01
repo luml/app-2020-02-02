@@ -15,7 +15,7 @@
 }
 .linearGradient:hover {
   color: white;
-  height: 50em;
+  transform: skew(90deg);
   background: linear-gradient(0.25turn, rebeccapurple, purple);
 }
 /* content property doesn't work, cus content property has to have a string type value */

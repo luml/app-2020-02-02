@@ -629,7 +629,7 @@ body.light-mode {
   color: black;
   transition: all 1s ease-in-out;
 }
-body.light-mode .toggle-div > button:first-child {
+body.light-mode .toggle-div > button:first-of-type {
   display: none;
 }
 
@@ -650,7 +650,7 @@ body.dark-mode .heartWords {
 body.dark-mode .toggle-div > button {
   background: darkkhaki;
 }
-body.dark-mode .toggle-div > button:last-child {
+body.dark-mode .toggle-div > button:last-of-type {
   display: none;
 }
 

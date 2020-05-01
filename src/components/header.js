@@ -25,6 +25,7 @@ const Header = ({ siteTitle }) => (
           sx={{
             color: `black`,
             textDecoration: `none`,
+            fontStyle: `italic`,
           }}
         >
           {siteTitle}
